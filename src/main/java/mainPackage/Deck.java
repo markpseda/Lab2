@@ -25,6 +25,11 @@ public class Deck {
 		return deck.remove(0);
 	}
 	
+	public int cardsRemain(){
+		int size = deck.size();
+		return(size);
+	}
+	
 	
 	
 	
